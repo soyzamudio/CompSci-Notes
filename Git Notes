@@ -304,7 +304,7 @@ You can also use time based ranges for git diff, just like with git log.
 See the git log notes to see how to do this.
 
 command:    git diff branchName branchName
-The git diff command can also be used to compare the differences between 
+The git diff command can also be used to compare the differences between
 two branches.
 
 command:    git blame filename
@@ -420,3 +420,5 @@ Sends files to website server to put new website files right onto the server.
 
 Hooks:
 A git hook is a script that fires when you do some predetermined action.
+
+Command: stash
