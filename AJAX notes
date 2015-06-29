@@ -1,6 +1,6 @@
 Asynchronous JavaScript and XML (AJAX) Notes
 
-
+sadfasdfas
 
 AJAX is not a programming language, but a different way to use existing standards.
 AJAX lets you exchange data with the server and update parts of the webpage without reloading the
@@ -135,7 +135,7 @@ Server Response
     responseText    -   get the response data as a string
         If the response from the server is not XML, use the responseText property.
         i.e.
-            document.getElementById("myDiv").innerHTML = xmlhttp.responseText;    
+            document.getElementById("myDiv").innerHTML = xmlhttp.responseText;
 
     responseXML     -   get the response data as XML data
         If response from the server is XML, and you want to parse it as an XML object, use this.

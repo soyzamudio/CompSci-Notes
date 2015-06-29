@@ -16,7 +16,7 @@ var createCommit = function() {
         user: 'theCodeBear',
         repo: 'CompSci-Notes',
         title: 'Testing PR Title',
-        base: 'test-pr',
+        base: 'master',
         head: 'soyzamudio:test-pr'
       }
       github.pullRequests.create(msg, function(err, data) {
