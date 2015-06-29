@@ -17,7 +17,7 @@ var createCommit = function() {
         repo: 'CompSci-Notes',
         title: 'Testing PR Title',
         base: 'test-pr',
-        head: 'test-pr'
+        head: 'soyzamudio:test-pr'
       }
       github.pullRequests.create(msg, function(err, data) {
         console.log('\n\n***** err *****\n\n', err);
