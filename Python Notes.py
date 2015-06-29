@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 ''' ON CHAPTER 13 IN THINK PYTHON - HOW TO THINK LIKE A COMPUTER SCIENTIST'''
-
+sfsdfs
 
 #python guide
 
@@ -43,10 +43,10 @@
 # VARIABLE SCOPE
 # two scopes of variables in python:  global and local
 # variables defined inside a function have local scope, otherwise they are global.
-# In python you can use any global variables inside a function. But you can't change 
+# In python you can use any global variables inside a function. But you can't change
 # their value, if you do try to modify the variable Python will create a new local variable
 # with that same name. You can access the global variable (print it or use it in calculations)
-# as long as you haven't already created a new local variable with the same name 
+# as long as you haven't already created a new local variable with the same name
 # previously in the function.
 # All non-local variables (not created in a function) are global, meaning they can be accessed
 # inside a function without being sent as an argument.
@@ -66,7 +66,7 @@
 # del var1, var2
 
 # NUMBERS
-# numbers in python are immutable data types, which means that 
+# numbers in python are immutable data types, which means that
 # changing the value of a number data type results in a newly
 # allocated object.
 # numbers data types are: int, long, float, complex
@@ -260,7 +260,7 @@ print "Received input is: ", aStr		# typing in [x*5 for x in range(2,10,2)]
 # TYPECASTING
 # int() or int(x[, BASE]), long() or long(x[, BASE]), float(), complex(real[, imag]),
 # str(), repr(), eval(str), tuple(), list(), set(), dict(), frozenset(), chr(),
-# unichr(), ord(), hex(), oct() 
+# unichr(), ord(), hex(), oct()
 print 'now how old are you?',
 myAge = int(raw_input())
 print myAge + 32	# here myAge is an integer
@@ -518,7 +518,7 @@ map(min, [1,-20,18,40], [12,99,-5,38])  # finds the minimum value of each compar
 # def keyword. Lambda/Anonymous functions are small one line statements.
 # Lambda forms can take any number of arguments, but return just on value as an expression
 # Lambda can't be a direct form to print because lambda requires an expression
-# Lambda functions have their own local namespace so cannot access variables other than 
+# Lambda functions have their own local namespace so cannot access variables other than
 # the function arguments and those in the global namespace.
 # syntax:      lambdaFuncName = lambda [arg1 [, arg2,...argn]] : expression
 sum = lambda numA, numB: numA + numB
@@ -736,7 +736,7 @@ print range(10,4,-1)  # prints: [10,9,8,7,6,5]
 # list.extend(seq)     <-- appends sequence to list, returns no value, just changes the list
 # list.index(obj)      <-- returns lowest index in list in which object appears
 # list.insert(index, obj)   <-- no return value, just changes the list
-# list.pop(obj=list[-1])    <-- eliminates and returns last element of the index, or specified index 
+# list.pop(obj=list[-1])    <-- eliminates and returns last element of the index, or specified index
 # list.remove(obj)      <-- removes the object (value) specified
 # list.reverse()      <-- reverses the order of the list in place, but doesn't return a value
 # list.sort([func])   <-- sorts objects of list in-place, use compare function if given
@@ -1388,7 +1388,7 @@ today.isoformat()           # formats a date to ISO standard (yyyy-mm-dd)
 # This module lets you interface with the web.
 # The most useful function in this module is urlopen, which downloads a page.
 import urllib2
-html = urllib2.urlopen("http://www.toddkronenberg.com").read(100)  # returns first 100 chars of the HTML 
+html = urllib2.urlopen("http://www.toddkronenberg.com").read(100)  # returns first 100 chars of the HTML
 print html        # prints out the characters retrieved from the html file in the line above
 
 
